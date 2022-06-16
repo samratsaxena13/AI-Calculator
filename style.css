@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins';
+    background: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#title {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+    margin-top: 28px;
+}
+#instruction {
+    width: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+}
+
+.boxes {
+    border: 1px black solid;
+    width: fit-content;
+    height: fit-content;
+    font-size: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.numbers {
+    background-color: white;
+}
+.operators {
+    background-color: gold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.icon {
+    width: 50px;
+}
+
+#output {
+    width: fit-content;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 60px;
+    font-weight: 600;
+    color: red;
+}

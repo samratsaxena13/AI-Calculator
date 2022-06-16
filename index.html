@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AI Calculator</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+            <br><br><br><br><br><br>
+            <h1 id="title"><b>AI</b> Calculator</h1>
+            <h3 id="instruction">Hover/Click over the boxes to change values</h3>
+            <div id="temp-div">
+                <button id="add-btn" onclick="addBox()" class="btn btn-primary">Add Boxes</button>
+                <br><br>
+            </div>
+            <br><br>
+            <div id="main-div">
+                <span class="boxes numbers"><span id="number-span1">&nbsp;</span></span>
+                <span class="boxes operators"><span id="operator-span1"><img class="icon" src="icon.png"></span></span>
+                <span class="boxes numbers"><span id="number-span2">&nbsp;</span></span>
+            </div>
+            <br><br>
+            <div id="output">---</div>
+        </center>
+    </body>
+    <script src="main.js"></script>
+</html>
